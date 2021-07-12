@@ -157,6 +157,10 @@ input:nth-child(3n){
 }
 
 
+.music{
+    font-size: 12px;
+    padding: 10px
+}
 
 /* ---------------------------------------------- /*
  * General Styles
@@ -336,7 +340,7 @@ div[class^="devicon"] span{
 	display: block;
 	line-height: 35px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
+	border: 1px solid rgba(3, 3, 3, 0.1);
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
