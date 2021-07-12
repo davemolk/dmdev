@@ -13,7 +13,6 @@ a {
 }
 
 a:hover {
-	/* text-decoration: none; */
 	color: #6fb1e7;
 }
 
@@ -26,18 +25,6 @@ a:hover {
     float: left;
 }
 
-/* ---------------------------------------------- /*
- * Reset box-shadow
-/* ---------------------------------------------- */
-
-
-.form-control,
-.form-control:hover,
-.form-control:focus,
-.navbar-custom .dropdown-menu {
-	-webkit-box-shadow: none;
-			box-shadow: none;
-}
 
 /* ---------------------------------------------- /*
  * Typography
@@ -55,96 +42,6 @@ h2 {
 	font-size: 30px;
 	margin: 0 0 30px;
 }
-
-h3 {
-	font-size: 13px;
-	letter-spacing: 1px;
-	margin: 0 0 5px;
-}
-
-h4 {
-	font-size: 12px;
-	letter-spacing: 1px;
-}
-
-h5 {
-	font-size: 12px;
-	letter-spacing: 1px;
-	font-weight: 400;
-}
-
-h6 {
-	font-size: 11px;
-	letter-spacing: 1px;
-	font-weight: 400;
-}
-
-/* ---------------------------------------------- /*
- * Reset border-radius
-/* ---------------------------------------------- */
-
-.btn,
-.iconbox,
-.progress,
-#filter li,
-.scroll-up a,
-.form-control,
-.input-group-addon {
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-		 -o-border-radius: 3px;
-			border-radius: 3px;
-}
-
-
-/* ---------------------------------------------- /*
- * Input-group
-/* ---------------------------------------------- */
-
-.input-group .form-control {
-	z-index: auto;
-}
-
-.input-group-addon {
-	background: #D8E1E4;
-	border: 2px solid #D8E1E4;
-	padding: 6px 15px;
-	font-weight: 700;
-}
-
-/* ---------------------------------------------- /*
- * Inputs styles
-/* ---------------------------------------------- */
-
-.form-control {
-	background: #FFF;
-	border: 1px solid #D8E1E4;
-	font-size: 12px;
-	padding: 0 15px;
-}
-
-.form-control:focus{
-    border-color: rgba(135, 135, 135, 0.7);
-}
-
-.input-lg,
-.form-horizontal .form-group-lg .form-control {
-	height: 38px;
-	font-size: 13px;
-}
-
-.input-sm,
-.form-horizontal .form-group-sm .form-control {
-	font-size: 11px;
-	height: 30px;
-}
-
-input:nth-child(3n){
-    height: 500px%;
-}
-
-
-
 
 
 
@@ -302,22 +199,15 @@ div[class^="devicon"] span{
 }
 
 .portfolio-description h1{
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 200;
     margin: 1rem 0;
-}
-
-.portfolio-description h5{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    opacity: 0.3; 
 }
 
 .portfolio-description .cta{
     display: inline-block;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
+	margin-left: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
     color: #999;
     transition: color 650ms;
@@ -339,20 +229,13 @@ div[class^="devicon"] span{
 #footer {
 	background: #222;
 	text-align: center;
-	padding: 40px 0;
 	color: #FFF;
-}
-
-
-.copyright a{
-    border-bottom: 1px dotted #fff;
 }
 
 .copyright{
     width: 100%;
     text-align: center;
 	margin: 0;
-    background-color: #16162d;
     padding: 2rem 0;
     position: relative;
 }
@@ -382,13 +265,13 @@ div[class^="devicon"] span{
 
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 #6fb1e7;
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0);
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
 }
 
@@ -400,10 +283,6 @@ div[class^="devicon"] span{
     .nav-list{
         flex-direction: column;
     }
-
-	.calltoaction {
-		text-align: center;
-	}
 
     li{
         margin: 2rem 0;
@@ -419,14 +298,6 @@ div[class^="devicon"] span{
 
     .section-heading h1{
         font-size: 3rem;
-    }
-
-    .about-details .nav-list{
-        flex-direction: initial;
-    }
-
-    .about-details li{
-        margin: 0 2rem;
     }
 
     .icon-container i{
