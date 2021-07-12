@@ -1,6 +1,5 @@
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
-	color: #666;
 	overflow-x: hidden;
 }
 
@@ -14,8 +13,8 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
-	color: #E7746F;
+	/* text-decoration: none; */
+	color: #6fb1e7;
 }
 
 .col-xs-15 {
@@ -27,12 +26,11 @@ a:hover {
     float: left;
 }
 
-
 /* ---------------------------------------------- /*
  * Reset box-shadow
 /* ---------------------------------------------- */
 
-.btn,
+
 .form-control,
 .form-control:hover,
 .form-control:focus,
@@ -146,25 +144,10 @@ input:nth-child(3n){
 }
 
 
-/* Button size */
-
-.btn-lg,
-.btn-group-lg > .btn {
-	padding: 10px 25px;
-	font-size: 13px;
-    background: rgba(17, 17, 17, 0.8);
-    color: #fff;
-}
 
 
-.music{
-    font-size: 12px;
-    padding: 10px
-}
 
-/* ---------------------------------------------- /*
- * General Styles
-/* ---------------------------------------------- */
+
 
 .pfblock {
 	padding: 120px 0 100px;
@@ -178,12 +161,7 @@ input:nth-child(3n){
 	padding: 0;
 }
 
-.calltoaction h1,
-.calltoaction h2,
-.calltoaction h3,
-.calltoaction h4,
-.calltoaction h5,
-.calltoaction h6,
+
 .pfblock-image,
 .pfblock-image h1,
 .pfblock-image h2,
@@ -261,68 +239,6 @@ div[class^="devicon"] span{
 
 
 
-#contact-form{
-	display: block;
-	max-width: 600px;
-	margin: 0 auto;
-	border: 1px solid var(--borderColor);
-	padding: 15px;
-	border-radius: 5px;
-	background-color: var(--mainColor);
-	margin-bottom: 50px;
-
-}
-
-#contact-form label{
-	line-height: 2.7em;
-}
-
-#contact-form textarea{
-	min-height: 100px;
-	font-size: 14px;
-}
-
-
-.input-field{
-	width: 100%;
-	padding-top: 10px;
-	padding-bottom:10px; 
-	background-color: var(--secondaryColor);
-	border-radius: 5px;
-	border:1px solid var(--borderColor);
-	font-size: 14px;
-}
-
-
-#submit-btn{
-	margin-top: 10px;
-	width: 100%;
-	padding-top: 10px;
-	padding-bottom:10px; 
-	color: #fff;
-	background-color: var(--buttonColor);
-	border:none;
-}
-
-
-/* ---------------------------------------------- /*
- * Footer
-/* ---------------------------------------------- */
-
-#footer {
-	background: #222;
-	text-align: center;
-	padding: 40px 0;
-	color: #FFF;
-}
-
-
-.copyright a{
-    border-bottom: 1px dotted #fff;
-}
-
-
-
 .social-links {
 	list-style: none;
 	padding: 0;
@@ -349,13 +265,10 @@ div[class^="devicon"] span{
 }
 
 .social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .8);
+	/* border: 1px solid rgba(0, 0, 0, 0.1);; */
+	color: #6fb1e7;
 }
 
-/* ---------------------------------------------- /*
- * Navigation
-/* ---------------------------------------------- */
 
 .header {
 	border-bottom: 1px solid #f5f5f5;
@@ -364,6 +277,76 @@ div[class^="devicon"] span{
 	z-index: 998;
 }
 
+
+
+
+
+
+.portfolio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.portfolio-item:last-child{
+    margin-bottom: 0;
+}
+
+.portfolio-img{
+    flex: 1;
+}
+
+.portfolio-description{
+    flex: 1;
+}
+
+.portfolio-description h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.portfolio-description h5{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0.3; 
+}
+
+.portfolio-description .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #999;
+    transition: color 650ms;
+}
+
+.portfolio-description .cta:hover{
+    color: #6fb1e7;
+} 
+
+.has-margin-right{
+    margin-right: 5rem;
+}
+
+
+
+
+
+
+#footer {
+	background: #222;
+	text-align: center;
+	padding: 40px 0;
+	color: #FFF;
+}
+
+
+.copyright a{
+    border-bottom: 1px dotted #fff;
+}
 
 .copyright{
     width: 100%;
@@ -411,54 +394,6 @@ div[class^="devicon"] span{
 
 
 
-.portfolio-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-}
-
-.portfolio-item:last-child{
-    margin-bottom: 0;
-}
-
-.portfolio-img{
-    flex: 1;
-}
-
-.portfolio-description{
-    flex: 1;
-}
-
-.portfolio-description h1{
-    font-size: 3rem;
-    font-weight: 400;
-    margin: 1rem 0;
-}
-
-.portfolio-description h5{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    opacity: 0.3; 
-}
-
-.portfolio-description .cta{
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #3883ff;
-    transition: color 650ms;
-}
-
-.portfolio-description .cta:hover{
-    color: #2f67cd;
-} 
-
-.has-margin-right{
-    margin-right: 5rem;
-}
 
 @media (max-width: 768px) {
 
