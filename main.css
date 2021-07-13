@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-	color: #6fb1e7;
+	color: #aed9fc;
 }
 
 
@@ -30,16 +30,19 @@ h2 {
 	margin: 0 0 30px;
 }
 
+.navbar{
+	background: #aed9fc;
+}
+
 
 
 
 .pfblock {
 	padding: 70px 70px;
+	background: #d8d5d5;
 }
 
-.pfblock-gray {
-	background: #f5f5f5;
-}
+
 
 .pfblock-header {
 	text-align: center;
@@ -59,9 +62,9 @@ h2 {
 }
 
 .pfblock-line {
-	background: #6fb1e7;
+	background: #aed9fc;
 	width: 100px;
-	height: 3px;
+	height: 5px;
 	margin: 30px auto;
 }
 
@@ -127,7 +130,7 @@ div[class^="devicon"] span{
 }
 
 .social-links a:hover {
-	color: #6fb1e7;
+	color: #aed9fc;
 }
 
 
@@ -163,7 +166,7 @@ div[class^="devicon"] span{
 }
 
 .portfolio-description .cta:hover{
-    color: #6fb1e7;
+    color: #aed9fc;
 } 
 
 .has-margin-right{
@@ -215,7 +218,7 @@ div[class^="devicon"] span{
 
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 #6fb1e7;
+        box-shadow: 0 0 0 0 #aed9fc;
     }
     70%{
         box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0);
@@ -287,3 +290,4 @@ div[class^="devicon"] span{
 	}
 
 }
+
