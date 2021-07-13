@@ -34,7 +34,7 @@ h2 {
 
 
 .pfblock {
-	padding: 120px 0 100px;
+	padding: 70px 70px;
 }
 
 .pfblock-gray {
@@ -241,26 +241,10 @@ div[class^="devicon"] span{
     .nav-link{
         font-size: 4.5 rem;
     }
-
-    /* .about-heading h1{
-        font-size: 8rem;
-    }
-
-    .section-heading h1{
-        font-size: 3rem;
-    }
-
-    .icon-container i{
-        font-size: 4rem;
-    } */
-
 }
 
 @media (max-width: 600px) {
-	#me {
-		margin-top: 1vh;
-	}
-
+	
     .container{
         flex-direction: column;
     }
@@ -278,11 +262,6 @@ div[class^="devicon"] span{
 
     .portfolio-item{
         flex-direction: column;
-    }
-
-    .portfolio-img{
-        margin: 0 0 2rem 0;
-        order: 1;
     }
 
     .portfolio-description{
