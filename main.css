@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-	color: #aed9fc;
+	color: #3fa7fd;
 }
 
 
@@ -31,8 +31,10 @@ h2 {
 }
 
 .navbar{
-	background: #aed9fc;
+	background: #bbdffd;
+	/* background: #aed9fc; */
 }
+
 
 
 
@@ -62,7 +64,7 @@ h2 {
 }
 
 .pfblock-line {
-	background: #aed9fc;
+	background: #56b2fd;
 	width: 100px;
 	height: 5px;
 	margin: 30px auto;
@@ -130,7 +132,7 @@ div[class^="devicon"] span{
 }
 
 .social-links a:hover {
-	color: #aed9fc;
+	color: #3fa7fd;
 }
 
 
@@ -166,7 +168,7 @@ div[class^="devicon"] span{
 }
 
 .portfolio-description .cta:hover{
-    color: #aed9fc;
+    color: #3fa7fd;
 } 
 
 .has-margin-right{
