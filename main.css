@@ -239,9 +239,9 @@ div[class^="devicon"] span{
         flex-direction: column;
     }
 
-    li{
+    /* li{
         margin: 2rem 0;
-    }
+    } */
 
     .nav-link{
         font-size: 4.5 rem;
